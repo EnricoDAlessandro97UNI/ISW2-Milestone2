@@ -48,10 +48,10 @@ public class WekaAnalyser {
 			AnalysisRun actualRun = new AnalysisRun(dataset, analysisProfile, projectName);
 
 			for (Instance instance : dataset) {
-				if (versions.indexOf(instance.stringValue(VERSION_NAME_INDEX).toString()) == testingIdx)
+				if (versions.indexOf(instance.stringValue(VERSION_NAME_INDEX)) == testingIdx)
 					actualRun.addToTesting(instance);
 
-				else if (versions.indexOf(instance.stringValue(VERSION_NAME_INDEX).toString()) < testingIdx)
+				else if (versions.indexOf(instance.stringValue(VERSION_NAME_INDEX)) < testingIdx)
 					actualRun.addToTraining(instance);
 			}
 

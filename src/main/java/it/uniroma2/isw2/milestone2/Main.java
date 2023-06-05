@@ -11,8 +11,7 @@ public class Main {
 	
 	private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
 	
-	private static final String PROJECT_NAME = "SYNCOPE";    // Progetti sotto test
-//	private static final String PROJECT_NAME = "BOOKKEEPER"; 
+	private static final String PROJECT_NAME = "SYNCOPE";    // or BOOKKEEPER
 	private static final String OUTPUTS_FOLDER = "outputs/"; // Directory dei risultati
 	
 	private static void initOutputsFolder() throws IOException {
