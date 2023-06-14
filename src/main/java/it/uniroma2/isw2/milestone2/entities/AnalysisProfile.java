@@ -116,8 +116,8 @@ public class AnalysisProfile {
 		
 		String[] costSensitiveClassifiers = {
 				AnalysisProfile.COST_SENSITIVE_CLASSIFIER_NO,
-//				AnalysisProfile.COST_SENSITIVE_CLASSIFIER_SENSITIVE_LEARNING,
-//				AnalysisProfile.COST_SENSITIVE_CLASSIFIER_SENSITIVE_THRESHOLD
+				AnalysisProfile.COST_SENSITIVE_CLASSIFIER_SENSITIVE_LEARNING,
+				AnalysisProfile.COST_SENSITIVE_CLASSIFIER_SENSITIVE_THRESHOLD
 		};
 		
 		List<AnalysisProfile> profiles = new ArrayList<>();
